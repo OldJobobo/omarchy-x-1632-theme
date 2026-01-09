@@ -1,0 +1,29 @@
+[window]
+opacity = 0.9
+
+[colors]
+transparent_background_colors = true
+
+[colors.primary]
+background  = "#"
+foreground  = "#"
+
+[colors.normal]
+black       = "#"
+red         = "#"
+green       = "#"
+yellow      = "#"
+blue        = "#"
+magenta     = "#"
+cyan        = "#"
+white       = "#"
+
+[colors.bright]
+black       = "#"
+red         = "#"
+green       = "#"
+yellow      = "#"
+blue        = "#"
+magenta     = "#"
+cyan        = "#"
+white       = "#"

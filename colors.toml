@@ -1,0 +1,28 @@
+accent = "#4A5A70"
+cursor = "#D7E1F0"
+foreground = "#C7C6C1"
+background = "#2F3138"
+selection_foreground = "#C7C6C1"
+selection_background = "#A06E6E"
+
+# Base16-aligned 16-color palette
+# (color0–15 → base00–0F in the standard way)
+
+color0  = "#1B1B1D"  # base00 - black / darkest background
+color1  = "#A06E6E"  # base08 - red
+color2  = "#8A8F6B"  # base0B - green-ish (muted olive)
+color3  = "#D9C8B7"  # base0A - yellow / warm beige
+color4  = "#4A5A70"  # base0D - blue (your accent)
+color5  = "#5F5FBF"  # base0E - magenta/violet
+color6  = "#6E91C8"  # base0C - cyan / cool accent
+color7  = "#C7C6C1"  # base05 - main foreground
+
+color8  = "#737373"  # base03 - bright black / dim fg
+color9  = "#A06E6E"  # base08 - bright red (same as red)
+color10 = "#8A8F6B"  # base0B - bright green (same olive)
+color11 = "#D9C8B7"  # base0A - bright yellow
+color12 = "#4A5A70"  # base0D - bright blue
+color13 = "#5F5FBF"  # base0E - bright magenta
+color14 = "#6E91C8"  # base0C - bright cyan
+color15 = "#D7E1F0"  # base07 - bright white / lightest fg
+

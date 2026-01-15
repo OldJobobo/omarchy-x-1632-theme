@@ -1,0 +1,77 @@
+@define-color selected-text #A06E6E;
+@define-color text #C7C6C1;
+@define-color base #2F3138;
+@define-color border #737373;
+@define-color foreground #C7C6C1;
+@define-color background #2F3138;
+@define-color bright_blue #222222;
+@define-color bright_magenta #222222;
+/*
+window {
+    background-color: transparent;
+    background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 34%, rgba(0, 0, 0, 0) 62%);
+    transition: opacity 600ms ease;
+}
+*/
+window .box-wrapper,
+#box {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    transition: opacity 600ms ease, background-color 600ms ease;
+    background-image:
+        linear-gradient(to bottom right, transparent 0 10px, @bright_blue 10px, @bright_magenta 13px, transparent 13px),
+        linear-gradient(to bottom left, transparent 0 10px, @bright_blue 10px, @bright_magenta 13px, transparent 13px),
+        linear-gradient(to top left, transparent 0 10px, @bright_blue 10px, @bright_magenta 13px, transparent 13px),
+        linear-gradient(to top right, transparent 0 10px, @bright_blue 10px, @bright_magenta 13px, transparent 13px),
+        linear-gradient(to bottom right, transparent 0 12px, @background 12px),
+        linear-gradient(to bottom left, transparent 0 12px, @background 12px),
+        linear-gradient(to top left, transparent 0 12px, @background 12px),
+        linear-gradient(to top right, transparent 0 12px, @background 12px),
+        linear-gradient(to right, @bright_blue, @bright_magenta),
+        linear-gradient(to right, @bright_blue, @bright_magenta),
+        linear-gradient(to bottom, @bright_blue, @bright_magenta),
+        linear-gradient(to bottom, @bright_blue, @bright_magenta),
+        linear-gradient(@background, @background),
+        linear-gradient(@background, @background),
+        linear-gradient(@background, @background),
+        linear-gradient(@background, @background),
+        linear-gradient(@background, @background);
+    background-size:
+        16px 16px,
+        16px 16px,
+        16px 16px,
+        16px 16px,
+        16px 16px,
+        16px 16px,
+        16px 16px,
+        16px 16px,
+        calc(100% - 32px) 3px,
+        calc(100% - 32px) 3px,
+        3px calc(100% - 32px),
+        3px calc(100% - 32px),
+        calc(100% - 32px) calc(100% - 32px),
+        calc(100% - 32px) 16px,
+        calc(100% - 32px) 16px,
+        16px calc(100% - 32px),
+        16px calc(100% - 32px);
+    background-position:
+        top left,
+        top right,
+        bottom right,
+        bottom left,
+        top left,
+        top right,
+        bottom right,
+        bottom left,
+        top center,
+        bottom center,
+        center left,
+        center right,
+        center,
+        top center,
+        bottom center,
+        center left,
+        center right;
+    background-repeat: no-repeat;
+}

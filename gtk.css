@@ -8,21 +8,21 @@
 @define-color foreground #C7C6C1;
 
 @define-color black #1B1B1D;
-@define-color red #A06E6E;
-@define-color green #8A8F6B;
-@define-color yellow #D9C8B7;
-@define-color blue #4A5A70;
-@define-color magenta #5F5FBF;
-@define-color cyan #6E91C8;
-@define-color white #C7C6C1;
-@define-color bright_black #737373;
-@define-color bright_red #A06E6E;
-@define-color bright_green #8A8F6B;
-@define-color bright_yellow #D9C8B7;
-@define-color bright_blue #4A5A70;
-@define-color bright_magenta #5F5FBF;
-@define-color bright_cyan #6E91C8;
-@define-color bright_white #D7E1F0;
+@define-color red #A07D7D;
+@define-color green #8B8E76;
+@define-color yellow #D6C8BA;
+@define-color blue #7F8DA1;
+@define-color magenta #8383C3;
+@define-color cyan #7F99C1;
+@define-color white #CBCAC6;
+@define-color bright_black #8C8B86;
+@define-color bright_red #AF8D8D;
+@define-color bright_green #9B9E85;
+@define-color bright_yellow #E2D7CC;
+@define-color bright_blue #8F9CB0;
+@define-color bright_magenta #9696CF;
+@define-color bright_cyan #92A9CD;
+@define-color bright_white #E3E4E0;
 
 /* Adwaita Color Overrides */
 @define-color accent_bg_color @blue;
@@ -40,11 +40,11 @@
 @define-color sidebar_backdrop_color @black;
 @define-color sidebar_shade_color @black;
 
-@define-color headerbar_bg_color alpha(@foreground, 0.1);
+@define-color headerbar_bg_color @background;
 @define-color headerbar_fg_color @foreground;
 @define-color headerbar_backdrop_color @black;
 @define-color headerbar_shade_color @black;
-@define-color card_bg_color alpha(@foreground, 0.1);
+@define-color card_bg_color @background;
 @define-color card_fg_color @foreground;
 
 @define-color popover_bg_color @black;

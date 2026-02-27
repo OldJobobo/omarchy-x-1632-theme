@@ -5,24 +5,25 @@ background = "#2F3138"
 selection_foreground = "#C7C6C1"
 selection_background = "#A06E6E"
 
-# Base16-aligned 16-color palette
-# (color0–15 → base00–0F in the standard way)
+# Muted / unified + contrast-optimized grade (keeps your intent, improves usability)
 
-color0  = "#1B1B1D"  # base00 - black / darkest background
-color1  = "#A06E6E"  # base08 - red
-color2  = "#8A8F6B"  # base0B - green-ish (muted olive)
-color3  = "#D9C8B7"  # base0A - yellow / warm beige
-color4  = "#4A5A70"  # base0D - blue (your accent)
-color5  = "#5F5FBF"  # base0E - magenta/violet
-color6  = "#6E91C8"  # base0C - cyan / cool accent
-color7  = "#C7C6C1"  # base05 - main foreground
+color0  = "#1B1B1D"  # base00 - black / darkest background (unchanged)
 
-color8  = "#737373"  # base03 - bright black / dim fg
-color9  = "#A06E6E"  # base08 - bright red (same as red)
-color10 = "#8A8F6B"  # base0B - bright green (same olive)
-color11 = "#D9C8B7"  # base0A - bright yellow
-color12 = "#4A5A70"  # base0D - bright blue
-color13 = "#5F5FBF"  # base0E - bright magenta
-color14 = "#6E91C8"  # base0C - bright cyan
-color15 = "#D7E1F0"  # base07 - bright white / lightest fg
+color1  = "#A07D7D"  # base08 - red (lifted slightly for contrast, less saturation)
+color2  = "#8B8E76"  # base0B - muted olive (slightly grayer + tiny lift)
+color3  = "#D6C8BA"  # base0A - warm beige (slightly unified / less yellow pop)
+color4  = "#7F8DA1"  # base0D - slate blue (significant lift for contrast, kept muted)
+color5  = "#8383C3"  # base0E - violet (lifted + slightly desat to match “dusty” set)
+color6  = "#7F99C1"  # base0C - cool accent (shifted toward gray-blue, still “cyan-ish”)
+color7  = "#CBCAC6"  # base05 - main foreground (slightly cleaner neutral)
 
+color8  = "#8C8B86"  # base03 - bright black / dim fg (raised for readable comments)
+
+# Brights (still muted, just lighter; not neon)
+color9  = "#AF8D8D"  # bright red
+color10 = "#9B9E85"  # bright olive
+color11 = "#E2D7CC"  # bright beige
+color12 = "#8F9CB0"  # bright slate blue
+color13 = "#9696CF"  # bright violet
+color14 = "#92A9CD"  # bright cool accent
+color15 = "#E3E4E0"  # base07 - bright white / lightest fg (more unified than icy #D7E1F0)

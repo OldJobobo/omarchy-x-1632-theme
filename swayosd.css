@@ -1,9 +1,9 @@
 @define-color background-color #2F3138;
-@define-color border-pink #222222;
-@define-color border-magenta #222222;
-@define-color label #C7C6C1;
-@define-color image #C7C6C1;
-@define-color progress #5F5FBF;
+@define-color border-pink #8F9CB0;
+@define-color border-magenta #9696CF;
+@define-color label #CBCAC6;
+@define-color image #CBCAC6;
+@define-color progress #8383C3;
 
 window:not(:backdrop),
 window:backdrop {

@@ -1,18 +1,18 @@
-@define-color selected-text #A06E6E;
+@define-color selected-text #A07D7D;
 @define-color text #C7C6C1;
 @define-color base #2F3138;
-@define-color border #737373;
+@define-color border #8C8B86;
 @define-color foreground #C7C6C1;
 @define-color background #2F3138;
-@define-color bright_blue #222222;
-@define-color bright_magenta #222222;
-/*
+@define-color bright_blue #1B1B1D;
+@define-color bright_magenta #1B1B1D;
+
 window {
     background-color: transparent;
-    background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 34%, rgba(0, 0, 0, 0) 62%);
+    background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0) 42%);
     transition: opacity 600ms ease;
 }
-*/
+
 window .box-wrapper,
 #box {
     background-color: transparent;
